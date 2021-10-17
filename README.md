@@ -6,6 +6,8 @@ NOTE: This repo is copied from another private git repo. Code was actually devel
 Comment-Aid is a chrome extension that can help users to respond to online hate/misinformation about Islam and Muslims.
 Our vision is to make it help respond to hate and misinformation in general (not only Islam). 
 
+Currently this is only a proof-of concept, not a fully functioning chrome extension. 
+
 ## Installation
 
 1. Download this repo.
@@ -16,5 +18,5 @@ Our vision is to make it help respond to hate and misinformation in general (not
 
 ## Usage
 
-Select hateful comment, launch Comment-Aid extension to submit comment and receive suggested responses to flagged comment.
-Yyou can use Ctrl+Shift+H to launch the comment-aid extension after selecting the text.
+1. Select text you want to reply to.
+2. Type "Ctrl+Shift+H" to launch the comment-aid extension (or click on the icon).
