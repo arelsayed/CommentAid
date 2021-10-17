@@ -1,4 +1,7 @@
+
 # Comment-Aid
+NOTE: This repo is copied from another private git repo. Code was actually developed by a team of developers, not only by arelsayed.
+
 
 Comment-Aid is a chrome extension that can help users to respond to online hate/misinformation about Islam and Muslims.
 Our vision is to make it help respond to hate and misinformation in general (not only Islam). 
