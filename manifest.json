@@ -19,5 +19,16 @@
         "unlimitedStorage",
         "http://*/",
         "https://*/"
-    ]
+    ],
+    "commands": {
+        "_execute_browser_action": {
+           "suggested_key": {
+              "chromeos": "Ctrl+Shift+H",
+              "linux": "Ctrl+Shift+H",
+              "mac": "Command+Shift+H",
+              "windows": "Ctrl+Shift+H"
+           }
+        }
+        }
+
 }
