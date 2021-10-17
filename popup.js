@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
             console.log(result);
             document.getElementById("selectedText").innerHTML=result[0].toString();
         });
-        chrome.tabs.executeScript(tabs[0].id, { code: `window.getSelection().removeAllRanges()`})
+        //chrome.tabs.executeScript(tabs[0].id, { code: `window.getSelection().removeAllRanges()`})
     });
     
     document.getElementById("response1").innerHTML="Islam prohibits consummating a marriage with a girl that has not reached puberty. Girls can reach puberty at a young age, and around the world it was a norm for girls to marry at a very young age. In the famous story of Romeo and Juliet, Juliet was 13 years old. Reaching adulthood at the age of 18 is a modern invention. To judge the actions of other cultures in the past is committing both ethnocentric and presentist errors. Aisha became an inspiring leading member in early Muslim society."
