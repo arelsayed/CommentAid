@@ -1,101 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <link rel="stylesheet" href="styles.css" />
-    <script src="popup.js" charset="utf-8"></script>
-    <script src="copy2clipboard.js" charset="utf-8"></script>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Comment-Aid</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Comment-Aid</title>
-</head>
 <body>
-    <table>
-        <tr>
-            <td colspan="1">
-                <p>LOGO HERE</p>
-            </td>
-            <td colspan="2">
-                <h1>Comment-Aid</h1>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <div id="selectedText">Select the hateful text on the webpage</div>
-            </td>
-        </tr>
-        <tr>
-            <!-- HIDING THE PERSONALITY COLUMN
-            <th>
-                <h2>Personality</h2>
-            </th>
-            -->
-            <th>
-                <h2>Response 1</h2>
-            </th>
-        </tr>
-        <tr>
-            <!-- HIDING THE PERSONALITY COLUMN
-            <td>
-                <form action="/action_page.php">
-                    <input type="checkbox" id="curious" name="curious" value="curious">
-                    <label for="curious"> Curious </label><br>
-                    <input type="checkbox" id="ignorance" name="ignorance" value="ignorance">
-                    <label for="ignorance"> Ignorance</label><br>
-                    <input type="checkbox" id="hate" name="hate" value="hate">
-                    <label for="hate"> Hate</label><br>
-                    <input type="checkbox" id="troll" name="troll" value="troll">
-                    <label for="troll"> Troll</label><br>
-                    <input type="checkbox" id="unsure" name="unsure" value="unsure">
-                    <label for="unsure"> Unsure</label><br><br>
-                    <input type="submit" value="Report Comment">
-                  </form>
-            </td>-->
-            <td colspan="3">
-                <table border="1">
-                    <tr>
-                        <td colspan="3">
-                            <div id="response1" name="response1">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button onclick="copyResponse1()">Copy text</button>
-                        </td>
-                        <td>
-                            <a id="response1Link" href="" target="_blank">Learn More</a>
-                        </td>
-                    </tr>                   
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <th>
-                <h2>Response 2</h2>
-            </th>
-        </tr>
+    
+    <script type = "text/javascript"src="popup.js" charset="utf-8"></script>
+    
+    <!--Logo--> 
+    <a target="_blank" href="logo.png">
+        <img src="logo.png" alt="Comment-Aid" width="300" height="84">
+    </a>
+    
+    <!--Selected Text-->
+    <p></p>
+    <div id="selectedText">Select the hateful text on the webpage</div>
+    <p></p>
+    
+    <!--Thankyou Statement-->
+    <div id = "ThankYouStatement" class="thankyou">Thank you for flagging this comment, below are some suggested ways you can respond</div> 
+    
+    <!--response1table Title--> 
+    <div id="response1Title"><h3>Response 1</h3></div>
+    
+    <!--response1table --> 
+    <table border="0">
         <tr>
             <td colspan="3">
-                <table border="1">
-                    <tr>
-                        <td colspan="3">
-                            <div id="response2" name="response2">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button onclick="copyResponse2()">Copy text</button>
-                        </td>
-                        <td>
-                            <a id="response2Link" href="" target="_blank">Learn More</a>
-                        </td>
-                    </tr>                   
-                </table>
+                <div id="response1"></div>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td id="CopyResponse1ButtonCell">
+                <button id="CopyResponse1Button">Copy Response</button>
+            </td>
+            <td id=Link1Cell>
+                <a id="response1Link" href="" target="_blank">Learn More</a>
+            </td>
+        </tr>                   
+    </table>
+
+    <!--response2table Title--> 
+    <p></p>
+    <div id="response2Title"><h3>Response 2</h3></div>
+    <p></p>
+
+    <!--response2table --> 
+    <table border="0">
+        <tr>
+            <td colspan="3">        
+                <div id="response2"></div>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td id="CopyResponse2ButtonCell">
+             <button id="CopyResponse2Button">Copy Response</button>
+            </td>
+            <td id=Link2Cell>
+            <a id="response2Link" href="" target="_blank">Learn More</a>
             </td>
         </tr>
     </table>
-    
+    <p></p>
+    <div id="inspiringQuote" class="inspire">Inspiring Quote goes here</div>
+    <p></p>
     
 </body>
 </html>

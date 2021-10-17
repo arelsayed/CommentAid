@@ -1,8 +1,8 @@
-# CommentAid
+# AskAli
 
-CommentAid is a chrome extension that can help users to respond to online hate/misinformation online
+AskAli is a chrome extension that can help users to respond to online hate/misinformation about Islam and Muslims. 
 
-After you select a text, you click the chrome extension and it will show you potential responses to the online text. 
+Right now the extension just opens a button that when clicked it will give you "Salam".
 
 ## Installation
 

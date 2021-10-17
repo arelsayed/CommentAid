@@ -1,4 +1,49 @@
 html {
-    width: 300px;
-    height:500px
+    width: 320px;
+    height:550px
+}
+body{
+    
+    
+}
+
+#selectedText{
+    text-align: center;
+    background-color: lightgrey;
+    font-size: 16px;
+}
+
+#ThankYouStatement{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#response1{
+    font-size: 16px;
+}
+
+#CopyResponse1ButtonCell{
+    text-align: Left;
+}
+
+#Link1Cell{
+    text-align: Right;
+}
+
+#response2{
+    font-size: 16px;
+}
+
+#CopyResponse2ButtonCell{
+    text-align: Left;
+}
+
+#Link2Cell{
+    text-align: Right;
+}
+#inspiringQuote{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
 }

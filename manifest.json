@@ -1,6 +1,6 @@
 {
-    "name":"CommentAid",
-    "version": "1.1.0.1",
+    "name":"Comment-Aid",
+    "version": "1.1.0.2",
     "manifest_version": 2,
     "content_scripts": [
         {
@@ -10,7 +10,8 @@
     ],
     "browser_action":{
         "default_popup": "popup.html",
-        "default_title": "CommentAid"
+        "default_title": "Comment-Aid",
+        "default_icon": "icon.png"
     },
     "permissions": [
         "tabs",
@@ -18,9 +19,5 @@
         "unlimitedStorage",
         "http://*/",
         "https://*/"
-    ],
-    "background": {
-        "persistent": false,
-        "scripts": ["background.js"]
-      }
+    ]
 }
